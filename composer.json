@@ -1,0 +1,19 @@
+{
+  "name": "dedeirwanto/belajar-php-composer-hello",
+  "description": "Belajar Membuat Library Composer",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "DedeIrwanto\\Belajar\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Dede Irwanto",
+      "email": "id.dedeirwanto@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  }
+}
